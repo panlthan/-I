@@ -1,0 +1,41 @@
+body{
+    background-image: url("https://i.redd.it/c3uhsgo1vx541.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+.jumbotron{
+    border-radius: 6px;
+}
+
+.table {
+    border-collapse: separate;
+    border-spacing: 0;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.table th,
+.table td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+    border-radius: 0;
+}
+
+.table th:first-child,
+.table td:first-child {
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+}
+
+.table th:last-child,
+.table td:last-child {
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+}
+
+.mb-4{
+    color: white;
+}
